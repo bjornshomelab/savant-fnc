@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Demystify Savant: An Open Science Project on Savant Syndrome and FNC Theory"
+abstract: "Reframing savant syndrome as differential Field access using the Field-Node-Cockpit (FNC) framework. Integrates first public savant-specific whole exome sequencing dataset with consciousness theory."
+type: dataset
+authors:
+  - family-names: "Wikström"
+    given-names: "Björn"
+    email: bjorn@base76.se
+    orcid: "https://orcid.org/0009-0000-4015-2357"
+    affiliation: "Base76 Research Lab"
+repository-code: "https://github.com/bjornshomelab/savant-fnc"
+url: "https://github.com/bjornshomelab/savant-fnc"
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2025-12-02"
+keywords:
+  - savant syndrome
+  - acquired savant
+  - FNC framework
+  - Field-Node-Cockpit
+  - consciousness
+  - neurodiversity
+  - whole exome sequencing
+  - MNI dataset
+  - pattern cognition
+  - autism
+  - brain injury
+  - TMS
+  - neuroplasticity
+references:
+  - type: article
+    title: "The Shared Mind: Simulation, Idealism, and the Quantum-Holographic Criterion"
+    authors:
+      - family-names: "Wikström"
+        given-names: "Björn"
+    doi: "10.5281/zenodo.17467745"
+    year: 2024
+  - type: dataset
+    title: "CBIG Savant Syndrome Whole Exome Sequencing Dataset"
+    authors:
+      - family-names: "Rouleau"
+        given-names: "Guy"
+    url: "https://cbigr.loris.ca/"
+    year: 2022

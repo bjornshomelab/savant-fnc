@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2025-12-02",
+    "description": "Structured dataset of congenital and acquired savant cases used in the FNC-savant framework.",
+    "license": "CC BY 4.0",
+    "contact": "bjorn@base76.se",
+    "repository": "https://github.com/bjornshomelab/fnc-savant-evidence"
+  },
+  "fields": [
+    "case_id",
+    "name_or_alias",
+    "case_type",
+    "onset_type",
+    "domains",
+    "primary_ability",
+    "onset_age_years",
+    "neurological_event",
+    "lesion_location",
+    "hemisphere_dominance",
+    "autism_diagnosis",
+    "co_occurring_conditions",
+    "cognitive_profile_summary",
+    "phenomenology_quotes",
+    "assessment_methods",
+    "key_sources",
+    "fnc_relevance_notes"
+  ],
+  "cases": [
+    {
+      "case_id": "CS_A001",
+      "name_or_alias": "Jason Padgett",
+      "case_type": "acquired",
+      "onset_type": "traumatic brain injury",
+      "domains": ["mathematics", "spatial", "art"],
+      "primary_ability": "spontaneous perception and reproduction of geometric fractals",
+      "onset_age_years": 31,
+      "neurological_event": "concussion after assault, 2002",
+      "lesion_location": "suspected right parietal/occipital disruptions; altered connectivity",
+      "hemisphere_dominance": "right-leaning functional reorganization (reported)",
+      "autism_diagnosis": "no formal ASD diagnosis reported",
+      "co_occurring_conditions": ["post-traumatic stress", "obsessive focus on geometric patterns"],
+      "cognitive_profile_summary": "average premorbid functioning, no prior interest in mathematics; post-injury emergence of highly systematized geometric visualization.",
+      "phenomenology_quotes": [
+        "I see geometric shapes and fractals in everything.",
+        "It's as if the world is made of grids and patterns."
+      ],
+      "assessment_methods": [
+        "neuropsychological testing",
+        "clinical interviews",
+        "drawing tasks"
+      ],
+      "key_sources": [
+        "Fagan, A. (2024). The mystery of sudden genius. Psychology Today.",
+        "Padgett & Seabrook (2014). Struck by Genius. Houghton Mifflin Harcourt."
+      ],
+      "fnc_relevance_notes": "Clear instance of sudden access to highly structured mathematical/spatial patterns with no learning curve; maps to Field-geometry access with Node retuning after trauma."
+    },
+    {
+      "case_id": "CS_A002",
+      "name_or_alias": "Derek Amato",
+      "case_type": "acquired",
+      "onset_type": "traumatic brain injury",
+      "domains": ["music"],
+      "primary_ability": "complex piano composition and performance without prior training",
+      "onset_age_years": 39,
+      "neurological_event": "concussion from diving accident, 2006",
+      "lesion_location": "temporal lobe involvement (reported)",
+      "hemisphere_dominance": "left hemisphere disruption with enhanced right hemisphere function",
+      "autism_diagnosis": "no ASD diagnosis reported",
+      "co_occurring_conditions": ["chronic headaches", "sensory hypersensitivity"],
+      "cognitive_profile_summary": "No musical training prior to injury; immediate emergence of complex compositional and performance abilities post-injury.",
+      "phenomenology_quotes": [
+        "I could suddenly see music as patterns and shapes.",
+        "The piano keys seemed to light up and tell me what to play."
+      ],
+      "assessment_methods": [
+        "clinical interviews",
+        "musical performance assessment"
+      ],
+      "key_sources": [
+        "Fitzgerald, S. (2021). Studying acquired savant syndrome. Brain & Life.",
+        "Treffert, D. A. (2014). Savant syndrome: Realities, myths and misconceptions. JADD."
+      ],
+      "fnc_relevance_notes": "Instant emergence of musical pattern access; supports pre-existing Field-harmonic structures accessed via altered Node filtering."
+    },
+    {
+      "case_id": "CS_A003",
+      "name_or_alias": "Orlando Serrell",
+      "case_type": "acquired",
+      "onset_type": "traumatic brain injury",
+      "domains": ["calendar", "memory"],
+      "primary_ability": "calendar calculation and perfect weather recall for any date after injury",
+      "onset_age_years": 10,
+      "neurological_event": "struck by baseball, 1979",
+      "lesion_location": "left hemisphere trauma (specific location unclear)",
+      "hemisphere_dominance": "suspected right hemisphere enhancement",
+      "autism_diagnosis": "no formal ASD diagnosis",
+      "co_occurring_conditions": ["none reported"],
+      "cognitive_profile_summary": "Typical development prior to injury; sudden emergence of calendar calculation and autobiographical memory for weather post-injury.",
+      "phenomenology_quotes": [
+        "I just know what day it was.",
+        "I can see the weather in my mind for any day since the accident."
+      ],
+      "assessment_methods": [
+        "calendar calculation tests",
+        "memory verification tasks"
+      ],
+      "key_sources": [
+        "Treffert, D. A. (2009). The savant syndrome. Phil Trans R Soc B.",
+        "Case documentation in savant literature"
+      ],
+      "fnc_relevance_notes": "Temporal Field access without learning period; supports Node retuning to calendar structure patterns."
+    },
+    {
+      "case_id": "CS_C001",
+      "name_or_alias": "Kim Peek",
+      "case_type": "congenital",
+      "onset_type": "developmental",
+      "domains": ["memory", "calendar", "factual knowledge"],
+      "primary_ability": "extraordinary rote memory and calendar calculation across multiple centuries",
+      "onset_age_years": 3,
+      "neurological_event": "agenesis/dysgenesis of corpus callosum, cerebellar abnormalities",
+      "lesion_location": "midline structures; corpus callosum; cerebellum",
+      "hemisphere_dominance": "atypical; reduced inter-hemispheric integration",
+      "autism_diagnosis": "not classically autistic but with overlapping traits",
+      "co_occurring_conditions": ["intellectual disability", "motor coordination difficulties"],
+      "cognitive_profile_summary": "Impaired abstraction and social cognition but vast, stable, cross-domain factual and temporal memory.",
+      "phenomenology_quotes": [
+        "He could open a book, read two pages at once – one with each eye – and remember almost everything he read.",
+        "He could tell you the day of the week for any date with no apparent calculation."
+      ],
+      "assessment_methods": [
+        "longitudinal clinical case study",
+        "calendar calculation tasks",
+        "factual recall tests"
+      ],
+      "key_sources": [
+        "Treffert, D. A. (2014). Savant syndrome: Realities, myths and misconceptions. JADD.",
+        "Wisconsin Medical Society case archives."
+      ],
+      "fnc_relevance_notes": "Exemplifies extreme domain-specific access to temporal and factual invariants; consistent with stable Field structures accessed via atypical Node architecture with reduced integration."
+    },
+    {
+      "case_id": "CS_C002",
+      "name_or_alias": "Leslie Lemke",
+      "case_type": "congenital",
+      "onset_type": "developmental",
+      "domains": ["music"],
+      "primary_ability": "immediate reproduction of complex piano pieces after single hearing",
+      "onset_age_years": 14,
+      "neurological_event": "perinatal complications; developmental disabilities",
+      "lesion_location": "global but asymmetric brain damage",
+      "hemisphere_dominance": "unclear; specialized musical processing",
+      "autism_diagnosis": "developmental disability with savant musical skill",
+      "co_occurring_conditions": ["visual impairment", "motor difficulties"],
+      "cognitive_profile_summary": "Severe developmental disabilities with extraordinary musical reproduction ability.",
+      "phenomenology_quotes": [
+        "Played complex Tchaikovsky piano concerto perfectly after hearing it once on television."
+      ],
+      "assessment_methods": [
+        "clinical case study",
+        "musical performance documentation"
+      ],
+      "key_sources": [
+        "Treffert, D. A. (2009). The savant syndrome. Phil Trans R Soc B.",
+        "Clinical case archives"
+      ],
+      "fnc_relevance_notes": "Direct access to harmonic structure; minimal learning; strong fit with Field-harmonic access via Node specialization."
+    }
+  ]
+}

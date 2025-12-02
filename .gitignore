@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Data (large files - use Git LFS if needed)
+*.fastq
+*.fastq.gz
+*.bam
+*.vcf
+*.gvcf
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz

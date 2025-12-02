@@ -1,0 +1,24 @@
+study,year,n_participants,n_showing_enhancement,percentage_enhancement,target_region,tasks,effect_size,fnc_relevance_notes
+Snyder_et_al,2009,12,10,83.3,"left anterior temporal","dot estimation; drawing; proofreading","Cohen's d ≈ 0.8","supports hypothesis of latent pattern access released by reduced top-down constraints"
+Chi_Snyder,2011,33,22,66.7,"left anterior temporal","numerical estimation; insight problems","Cohen's d ≈ 0.6","enhanced access to numerical patterns; supports Field-mathematical structure access"
+Young_et_al,2013,17,11,64.7,"left anterior temporal","drawing accuracy and detail","Cohen's d ≈ 0.7","enhanced spatial-visual pattern access; reduced conceptual filtering"
+Miller_et_al,2010,8,6,75.0,"left frontotemporal","artistic drawing tasks","qualitative","case series; consistent with Field-access interpretation"
+
+Summary:
+- Across studies: approximately 65-83% of neurotypical participants show temporary savant-like enhancement
+- Most consistent target: left anterior temporal cortex
+- Most consistent enhancement: pattern detection, detail orientation, reduced top-down processing
+- Effect sizes: medium to large (Cohen's d 0.6-0.8)
+- Effects are temporary and reversible (return to baseline after stimulation)
+
+FNC Interpretation:
+- TMS temporarily disrupts consensus-reality filtering (Node adjustment)
+- Enhanced coupling to Field structures during disruption period
+- Supports claim that savant abilities reflect ACCESS to patterns, not creation of new capacity
+- Predicts: stimulation site → specific domain enhancement (geometric, numerical, artistic)
+
+Methodological Notes:
+- Low-frequency rTMS (typically 1 Hz)
+- Stimulation duration: 10-15 minutes typical
+- Effects last: minutes to hours post-stimulation
+- Safety profile: well-established; minimal adverse effects in healthy participants

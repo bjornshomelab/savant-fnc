@@ -1,0 +1,13 @@
+domain,number_of_cases,percentage_of_total,case_type_notes,primary_sources
+calendar_calculation,15,37.5,"mostly congenital; some acquired","Treffert 2009; Treffert & Rebedew 2015"
+music,12,30.0,"both congenital and acquired; includes perfect pitch and compositional ability","Heaton 2009; Hughes et al. 2018"
+visual_art,8,20.0,"more congenital than acquired; includes drawing and sculpture","Treffert 2014"
+mathematics,6,15.0,"often acquired; includes geometric visualization","Fagan 2024; case reports"
+spatial_mechanical,4,10.0,"mixed congenital and acquired","Mottron 2017; case studies"
+language,3,7.5,"polyglot savants; rare but documented","Treffert 2009"
+
+Notes:
+- Percentages exceed 100% because many savants show abilities in multiple domains
+- Based on documented cases in savant syndrome literature (n≈40 well-documented acquired savants worldwide as of 2024)
+- Domain classifications follow Treffert's taxonomy
+- FNC prediction: Domains correspond to stable Field structures (mathematical, harmonic, temporal, spatial patterns)

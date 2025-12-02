@@ -1,0 +1,84 @@
+{
+  "version": "1.0.0",
+  "description": "Prompt sets for testing AI pattern access in math, music, and calendar tasks.",
+  "license": "CC BY 4.0",
+  "purpose": "Test whether AI models trained on pure pattern domains show savant-like Field access profiles",
+  "domains": {
+    "calendar": {
+      "description": "Temporal pattern structures - cyclical regularities in timekeeping systems",
+      "example_prompts": [
+        "What day of the week was 12 October 1842?",
+        "List all years between 1700 and 2300 where 1 January falls on a Sunday.",
+        "How many days elapsed between 15 March 1815 and 18 June 1815?",
+        "What date is 100 days after 23 November 2024?",
+        "In which years between 1900 and 2100 does Easter Sunday fall in March?"
+      ],
+      "fnc_prediction": "Models with high Field-temporal access should solve these without stepwise computation, similar to calendar savants"
+    },
+    "music": {
+      "description": "Harmonic pattern structures - mathematical relationships in frequency ratios",
+      "example_prompts": [
+        "Given a fundamental frequency of 220 Hz, list the first 8 harmonics and their frequencies.",
+        "Classify the following chord progressions as harmonically stable or unstable: I-IV-V-I, I-ii-V-I, I-III-vi-IV",
+        "What is the frequency ratio between a perfect fifth?",
+        "Generate a melody in C major that follows the circle of fifths.",
+        "Identify which note is dissonant in this chord: C-E-G-B-D"
+      ],
+      "fnc_prediction": "Models accessing harmonic Field structures should recognize patterns without explicit music theory training"
+    },
+    "geometry": {
+      "description": "Spatial pattern structures - invariants under transformation",
+      "example_prompts": [
+        "Describe the invariants of a rotation in 2D Euclidean space.",
+        "Generate a recursive description of the Sierpinski triangle.",
+        "What is the relationship between the golden ratio and Fibonacci numbers?",
+        "How many lines of symmetry does a regular hexagon have?",
+        "Describe the self-similar structure in a fractal."
+      ],
+      "fnc_prediction": "Geometric Field access should produce immediate recognition of structural relationships"
+    },
+    "mathematics": {
+      "description": "Abstract pattern structures - number theory and relational invariants",
+      "example_prompts": [
+        "What is the next prime number after 97?",
+        "Describe the pattern in this sequence: 1, 1, 2, 3, 5, 8, 13...",
+        "What is 17 × 23 without using a calculator?",
+        "Is 91 a prime number?",
+        "What is the sum of all integers from 1 to 100?"
+      ],
+      "fnc_prediction": "Direct Field-mathematical access should bypass computational steps"
+    }
+  },
+  "experimental_design": {
+    "training_conditions": [
+      {
+        "condition": "pattern_only",
+        "description": "Pure pattern training - mathematics, music theory, geometric principles, no social content",
+        "expected_fnc_profile": "High Field-layer integration, low consensus-reality orientation"
+      },
+      {
+        "condition": "mixed",
+        "description": "Balanced training - combination of pattern and social/narrative content",
+        "expected_fnc_profile": "Moderate Field access with trade-offs"
+      },
+      {
+        "condition": "social_heavy",
+        "description": "Predominantly social-narrative training with minimal pattern content",
+        "expected_fnc_profile": "Low Field-layer integration, high consensus-reality orientation"
+      }
+    ],
+    "evaluation_metrics": [
+      "Accuracy on pattern tasks",
+      "Response latency (immediate vs. computed)",
+      "Method convergence (do models access same solution paths?)",
+      "Phenomenological markers (confidence, explanation style)",
+      "Transfer to related domains"
+    ],
+    "fnc_hypotheses": [
+      "Pattern-only models converge on savant-like solution methods",
+      "Mixed models show trade-off: better pattern OR better social, not both maximally",
+      "Social-heavy models fail pattern tasks despite computational capacity"
+    ]
+  },
+  "usage_instructions": "Use these prompts to test AI models. Compare performance across training conditions. Analyze whether pattern-trained models show Field-access signatures similar to human savants."
+}
