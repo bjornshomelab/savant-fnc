@@ -16,6 +16,42 @@
 
 ---
 
+## 📍 About This Repository
+
+This repository is an **empirical application** of the Field-Node-Cockpit (FNC) framework to savant syndrome. It contains data, case studies, protocols, and testable predictions — not the FNC framework specification itself.
+
+### 🗂️ FNC Research Ecosystem
+
+```mermaid
+graph TD
+    FNC["🧠 FNC Framework<br/>(Core Theory)"]
+    
+    subgraph Applications["Applied Research"]
+        S["🧬 savant-fnc<br/>Savant Syndrome"]
+        AI["🤖 Applied-Ai-Philosophy<br/>AI Consciousness"]
+        EU["📋 fnc-eu-ai-act<br/>AI Regulation"]
+    end
+    
+    FNC --> S
+    FNC --> AI
+    FNC --> EU
+    
+    style S fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px
+    style FNC fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    style AI fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    style EU fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+```
+
+| Repository | Focus | Link |
+|------------|-------|------|
+| **Applied Philosophy of AI** | FNC framework & AI consciousness theory | [→ Repository](https://github.com/bjornshomelab/Applied-Ai-Philoaophy-) |
+| **savant-fnc** *(this repo)* | FNC applied to savant syndrome — empirical data & predictions | *You are here* |
+| **FNC EU AI Act** | FNC applied to AI regulation compliance | [→ Repository](https://github.com/bjornshomelab/fnc-ramverket_for_eu_ai_act_compliance) |
+
+> 💡 **Looking for the FNC framework itself?** See [Applied Philosophy of AI](https://github.com/bjornshomelab/Applied-Ai-Philoaophy-) for core theory, philosophical foundations, and cross-domain applications.
+
+---
+
 ## 🏗️ The FNC Interpretation of Savant Syndrome
 
 ```mermaid
