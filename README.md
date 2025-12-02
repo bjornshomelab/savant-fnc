@@ -274,6 +274,102 @@ timeline
 
 ---
 
+## 🗺️ Version Roadmap
+
+| Version | Target | Focus | Status |
+|---------|--------|-------|--------|
+| **v1.0** | Dec 2025 | Initial release with FNC framework, case studies, MNI dataset documentation | ✅ Released |
+| **v1.1** | Q1 2026 | Expanded genetic section with preliminary WES analysis results | 🔜 Planned |
+| **v1.2** | Q2 2026 | AI-Savant comparison module: pattern-only training experiments | 🔜 Planned |
+| **v1.3** | Q3 2026 | TMS replication protocol with standardized methodology | 📋 Proposed |
+| **v2.0** | 2026-27 | First independent replication dataset + multi-site validation | 🎯 Goal |
+
+**Long-term Vision:**
+
+- 🧬 Full WES analysis pipeline for savant genetic signatures
+- 🤖 AI benchmark for Field-access detection (pattern recognition without learning)
+- 🏥 Clinical collaboration with TMS/tDCS research groups
+- 📊 Open replication registry for savant case studies
+
+> 💡 Have ideas for the roadmap? [Open an issue](https://github.com/bjornshomelab/savant-fnc/issues) or [contact the author](#-author--contact)
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from researchers, clinicians, and the neurodiversity community!
+
+### Ways to Contribute
+
+| Contribution Type | How | Contact |
+|-------------------|-----|---------|
+| **🔬 Case Studies** | Submit documented savant cases (with consent) | Open an issue |
+| **🧬 Genetic Analysis** | Collaborate on MNI WES dataset analysis | bjorn@base76.se |
+| **🧠 Neuroimaging Data** | Share lesion-ability correlation data | Open an issue |
+| **📊 Statistical Review** | Validate or extend statistical analyses | Pull request |
+| **📝 Peer Review** | Critical feedback on FNC interpretations | bjorn@base76.se |
+| **🌍 Translation** | Translate explainers to other languages | Pull request |
+| **🎨 Visualization** | Create infographics or improve diagrams | Pull request |
+
+### Contribution Guidelines
+
+1. **Open an Issue First** — Describe your proposed contribution before submitting
+2. **Follow Academic Standards** — All case studies must include proper citations
+3. **Respect Privacy** — No personally identifiable information without consent
+4. **Use Clear Language** — Contributions should be accessible to interdisciplinary audiences
+5. **Cite Sources** — All data contributions must include provenance documentation
+
+### For Researchers
+
+If you're interested in:
+
+- **Replicating** the FNC-savant framework with your own data
+- **Extending** the genetic predictions with new gene candidates
+- **Testing** the AI-savant parallel hypothesis
+- **Collaborating** on a joint publication
+
+Please reach out: **bjorn@base76.se** | Subject: "Savant-FNC Collaboration"
+
+> 🔓 This is an **open science project** — all contributions will be credited and all data will remain CC BY 4.0
+
+---
+
+## 🖼️ Visual Assets Index
+
+All diagrams are rendered as Mermaid in the README and paper. For static PNG versions:
+
+| Visual | Description | Location | Use Cases |
+|--------|-------------|----------|-----------|
+| **FNC Core Model** | Field-Node-Cockpit architecture diagram | README.md (Mermaid) | Presentations, papers |
+| **Typical vs Savant Brain** | Hemispheric comparison diagram | `paper/savant_fnc_full_article.md` | Teaching, outreach |
+| **Domain Specificity Map** | Abilities → Field structures mapping | README.md (Mermaid) | Academic talks |
+| **Genetic Causal Chain** | DNA → Phenomenology pathway | README.md + Paper | Genetics presentations |
+| **Case Timelines** | Padgett, Amato, Serrell acquisition | `paper/savant_fnc_full_article.md` | Clinical contexts |
+| **TMS Protocol Flow** | Intervention → Effect diagram | `paper/savant_fnc_full_article.md` | Methods sections |
+| **Research Ecosystem** | Project interconnection map | README.md (Mermaid) | Meta-level talks |
+
+### Generating PNG Exports
+
+To export Mermaid diagrams as PNG:
+
+```bash
+# Using mermaid-cli (npm install -g @mermaid-js/mermaid-cli)
+mmdc -i diagram.mmd -o diagram.png -b transparent
+
+# Or use the online editor: https://mermaid.live
+```
+
+### Visual Style Guide
+
+- **Color palette:** Blue (#1976d2), Orange (#f57c00), Purple (#7b1fa2), Green (#388e3c)
+- **Font:** System defaults for accessibility
+- **Format:** Mermaid source preferred (vector), PNG for static use
+- **License:** All visuals CC BY 4.0 — attribution required
+
+> 📁 Pre-rendered PNGs available in `demystify/visuals/` (coming in v1.1)
+
+---
+
 ## 🔗 Research Ecosystem
 
 This project is part of a larger research program applying FNC to consciousness detection:
