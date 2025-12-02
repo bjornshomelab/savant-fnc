@@ -11,6 +11,14 @@ authors:
     affiliation: "Base76 Research Lab"
 repository-code: "https://github.com/bjornshomelab/savant-fnc"
 url: "https://github.com/bjornshomelab/savant-fnc"
+doi: "10.5281/zenodo.17789741"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.17789741"
+    description: "Zenodo archive"
+  - type: url
+    value: "https://philpapers.org/rec/WIKSCA"
+    description: "PhilPapers record"
 license: CC-BY-4.0
 version: "1.0.0"
 date-released: "2025-12-02"

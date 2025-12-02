@@ -1,9 +1,10 @@
 # 🧬 Demystify Savant: An Open Science Project on Savant Syndrome and FNC Theory
 
-![Status](https://img.shields.io/badge/Status-In_Development-orange)
+![Status](https://img.shields.io/badge/Status-Published-brightgreen)
 ![Category](https://img.shields.io/badge/Category-Empirical_Neuroscience-green)
 ![FNC](https://img.shields.io/badge/FNC-Applied_Research-purple)
-[![DOI](https://img.shields.io/badge/DOI-pending-lightgrey)](https://doi.org/)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.17789741-blue)](https://doi.org/10.5281/zenodo.17789741)
+[![PhilPapers](https://img.shields.io/badge/PhilPapers-WIKSCA-orange)](https://philpapers.org/rec/WIKSCA)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 ![Data](https://img.shields.io/badge/Dataset-MNI_Savant_WES-blue)
 
@@ -314,18 +315,22 @@ If you use this work, please cite:
 ```bibtex
 @article{wikstrom2025savant,
   title={Savant Syndrome as Differential Access to Relational Information Structures: An FNC-Based Framework},
-  author={Wikström, Björn},
+  author={Wikstr\"om, Bj\"orn},
   journal={Base76 Research Lab},
   year={2025},
   month={December},
   url={https://github.com/bjornshomelab/savant-fnc},
-  doi={pending}
+  doi={10.5281/zenodo.17789741}
 }
 ```
 
 **APA Format:**
 
-> Wikström, B. (2025). Savant syndrome as differential access to relational information structures: An FNC-based framework. *Base76 Research Lab*. https://github.com/bjornshomelab/savant-fnc
+> Wikström, B. (2025). Savant syndrome as differential access to relational information structures: An FNC-based framework. *Base76 Research Lab*. DOI: [10.5281/zenodo.17789741](https://doi.org/10.5281/zenodo.17789741)
+
+**Also indexed at:**
+- 📚 [PhilPapers: WIKSCA](https://philpapers.org/rec/WIKSCA)
+- 🌐 [Zenodo: 17789741](https://zenodo.org/records/17789741)
 
 ---
 
