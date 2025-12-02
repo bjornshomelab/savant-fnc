@@ -1,0 +1,47 @@
+/media/bjorn/iic/GItHUb_repos/savant-fnc/scripts/statistics/effect_sizes.py:284: DeprecationWarning: 'binom_test' is deprecated in favour of 'binomtest' from version 1.7.0 and will be removed in Scipy 1.12.0.
+  binom_result = stats.binom_test(left_cases, left_cases + right_cases, 0.5)
+📈 Running Effect Size Analysis...
+============================================================
+
+1. TMS/tDCS ENHANCEMENT STUDIES
+----------------------------------------
+
+Snyder & Mitchell (1999)
+  Domain: Drawing
+  d = 2.43 (large)
+  95% CI: (1.30, 3.55)
+
+Snyder et al. (2003)
+  Domain: Numerosity
+  d = 1.47 (large)
+  95% CI: (0.66, 2.29)
+
+Young et al. (2004)
+  Domain: Proofreading
+  d = 0.99 (large)
+  95% CI: (0.15, 1.84)
+
+Chi & Snyder (2011)
+  Domain: Insight problems
+  d = 1.45 (large)
+  95% CI: (0.96, 1.94)
+
+Chi & Snyder (2012)
+  Domain: Matchstick arithmetic
+  d = 1.84 (large)
+  95% CI: (1.15, 2.52)
+
+
+META-ANALYSIS:
+  Weighted mean d = 1.64
+  k = 5 studies, N = 87
+
+
+2. LESION EFFECT ANALYSIS
+----------------------------------------
+
+Lateralization: 93% left hemisphere
+Binomial test: p = 0.0000
+
+============================================================
+✅ All effect size analyses complete!

@@ -1,0 +1,56 @@
+🧬 FNC Gene Scoring Demo
+============================================================
+
+Input: 5 variants
+  - CACNA1C (high impact)
+  - SHANK3 (moderate impact)
+  - GABRA1 (moderate impact)
+  - MBP (low impact)
+  - SCN2A (moderate impact)
+
+----------------------------------------
+
+FNC Tuning Profile:
+  Frequency:   ████████████████████ 1.00
+  Filtering:   ███████              0.38
+  Integration: ████████             0.40
+  Bandwidth:   ███                  0.19
+  Pattern:                          0.00
+
+  Overall Score: 0.43
+  Predicted Domain: Undetermined
+
+  Interpretation:
+    FNC Profile: Strong oscillation/timing processing, reduced structure recognition. This pattern is consistent with Undetermined domain access, suggesting Node tuning that prioritizes frequency over pattern.
+
+============================================================
+
+Full Sample Report (JSON):
+{
+  "sample_id": "DEMO_001",
+  "n_variants": 5,
+  "fnc_tuning_profile": {
+    "frequency": 1.0,
+    "filtering": 0.3829787234042553,
+    "integration": 0.4042553191489361,
+    "bandwidth": 0.19148936170212766,
+    "pattern": 0.0
+  },
+  "overall_score": 0.425531914893617,
+  "predicted_domain": "Undetermined",
+  "interpretation": "FNC Profile: Strong oscillation/timing processing, reduced structure recognition. This pattern is consistent with Undetermined domain access, suggesting Node tuning that prioritizes frequency over pattern.",
+  "gene_summary": {
+    "frequency_genes": [
+      "CACNA1C",
+      "SCN2A"
+    ],
+    "filtering_genes": [
+      "GABRA1"
+    ],
+    "integration_genes": [
+      "SHANK3"
+    ]
+  }
+}
+
+✅ FNC gene scoring demo complete!

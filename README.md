@@ -298,6 +298,33 @@ timeline
 
 ---
 
+## 📊 Key Results
+
+> **Full analysis with figures:** [results/README.md](results/README.md)
+
+### Statistical Highlights
+
+| Analysis | Statistic | Value | Interpretation |
+|----------|-----------|-------|----------------|
+| Autism–Savant Association | Odds Ratio | **109,444** | Massive positive association |
+| Domain Distribution | χ² | **426.8** (p < .001) | Non-random skill clustering |
+| TMS Enhancement | Cohen's d | **1.64** | Large effect size |
+| Lateralization | Left hemisphere | **93%** | Strong hemispheric bias |
+
+### Generated Figures
+
+| Figure | Description | FNC Insight |
+|--------|-------------|-------------|
+| ![Radar](results/figures/domain_radar_population.png) | Domain prevalence | Music/Art dominate = harmonic Field access |
+| ![Heatmap](results/figures/lesion_heatmap.png) | Lesion locations | 93% left hemisphere = consensus filter damage |
+| ![Tuning](results/figures/fnc_tuning_comparison.png) | Node tuning model | Savants = wider bandwidth |
+| ![Timeline](results/figures/case_timelines_all.png) | Acquired savant timeline | Instant emergence = pre-existing patterns |
+
+**Full statistical details:** [results/tables/statistical_summary.md](results/tables/statistical_summary.md)  
+**Genetic predictions:** [results/tables/genetic_predictions.md](results/tables/genetic_predictions.md)
+
+---
+
 ## 📚 Reading Paths
 
 | Audience | Start Here | Then Read | Finally |

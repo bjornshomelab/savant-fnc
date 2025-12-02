@@ -75,16 +75,16 @@ def autism_savant_association() -> Dict:
     
     # Savant rates
     savant_in_autism = int(n_autism * 0.10)  # 10% of autistic
-    savant_in_non_autism = int(n_non_autism * 0.000001)  # 1 in million
+    savant_in_non_autism = max(1, int(n_non_autism * 0.000001))  # At least 1 to avoid div by zero
     
     # Build contingency table
     #                   Savant    Non-Savant
     # Autism            a         b
     # Non-Autism        c         d
     
-    a = savant_in_autism
+    a = max(1, savant_in_autism)  # Ensure non-zero
     b = n_autism - a
-    c = savant_in_non_autism
+    c = max(1, savant_in_non_autism)  # Ensure non-zero
     d = n_non_autism - c
     
     contingency_table = np.array([[a, b], [c, d]])
@@ -93,7 +93,7 @@ def autism_savant_association() -> Dict:
     odds_ratio, p_value = stats.fisher_exact(contingency_table)
     
     # Calculate 95% CI for odds ratio using log transformation
-    log_or = np.log(odds_ratio)
+    log_or = np.log(odds_ratio) if odds_ratio > 0 else 0
     se_log_or = np.sqrt(1/a + 1/b + 1/c + 1/d)
     ci_lower = np.exp(log_or - 1.96 * se_log_or)
     ci_upper = np.exp(log_or + 1.96 * se_log_or)
