@@ -1,0 +1,35 @@
+# Savant-FNC Analysis Scripts
+# Install: pip install -r requirements.txt
+
+# Data analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Genetic analysis
+# Note: Some packages require additional system dependencies
+pyvcf3>=1.0.3
+goatools>=1.3.1
+
+# Statistics
+statsmodels>=0.14.0
+scikit-learn>=1.3.0
+
+# AI experiments (optional)
+openai>=1.0.0
+anthropic>=0.5.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+rich>=13.0.0
+typer>=0.9.0
+
+# Jupyter support
+jupyter>=1.0.0
+ipykernel>=6.25.0

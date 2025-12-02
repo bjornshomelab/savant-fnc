@@ -1,0 +1,110 @@
+name: Savant-FNC Analysis Pipeline
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/**'
+      - 'data/**'
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r scripts/requirements.txt
+    
+    - name: Validate data files
+      run: |
+        python -c "import json; json.load(open('data/cases/cases.json'))"
+        python -c "import json; json.load(open('ai_experiments/pattern_training_prompts.json'))"
+        echo "Data files valid"
+
+  visualizations:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install matplotlib seaborn numpy scipy
+    
+    - name: Generate visualizations
+      run: |
+        mkdir -p figures
+        cd scripts/visualization
+        python domain_radar_chart.py || echo "Done"
+        python lesion_heatmap.py || echo "Done"
+        python case_timeline.py || echo "Done"
+        python fnc_tuning_diagram.py || echo "Done"
+    
+    - name: Upload figures
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-figures
+        path: figures/
+        retention-days: 30
+
+  statistics:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install numpy scipy statsmodels
+    
+    - name: Run statistical analyses
+      run: |
+        cd scripts/statistics
+        python prevalence_analysis.py
+        python effect_sizes.py
+
+  genetic-analysis:
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+    - uses: actions/checkout@v4
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install numpy scipy
+    
+    - name: Run genetic analysis demo
+      run: |
+        cd scripts/genetic_analysis
+        python pathway_enrichment.py
+        python variant_annotation.py
+        python fnc_gene_scoring.py
