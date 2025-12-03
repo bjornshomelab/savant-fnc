@@ -1,0 +1,28 @@
+📊 Running Prevalence Analysis...
+============================================================
+
+1. AUTISM-SAVANT ASSOCIATION
+----------------------------------------
+Odds Ratio: 109444
+95% CI: (15405, 777546)
+p-value: 0.00e+00
+
+Autism is associated with 109444x higher odds of savant syndrome. This strongly supports the FNC hypothesis that both conditions involve similar Node modifications affecting Field access filtering.
+
+2. DOMAIN SPECIFICITY
+----------------------------------------
+Chi-square: 426.8
+p-value: 4.95e-90
+Effect size (V): 0.29
+
+Savant abilities are non-uniformly distributed across domains (χ² = 426.8, p < .001, V = 0.29). Music and Art are significantly over-represented.
+
+3. AUTISM SEVERITY GRADIENT
+----------------------------------------
+Spearman ρ: 1.00
+p-value: 0.000
+
+There is a significant trend (ρ = 1.00) between autism severity and savant prevalence.
+
+============================================================
+✅ All prevalence analyses complete!

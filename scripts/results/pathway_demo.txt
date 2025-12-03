@@ -1,0 +1,40 @@
+🧬 Pathway Enrichment Analysis Demo
+============================================================
+
+Input genes: CACNA1C, SHANK3, GABRA1, SCN2A, CNTNAP2, MBP
+----------------------------------------
+
+Enriched Pathways:
+
+  ion_channels:
+    Genes: CACNA1C, SCN2A
+    p-value: 1.45e-03
+    Fold enrichment: 33.3x
+    FNC role: Node tuning frequency
+
+  myelination:
+    Genes: CNTNAP2, MBP
+    p-value: 1.45e-03
+    Fold enrichment: 33.3x
+    FNC role: Node bandwidth
+
+  excitation_inhibition:
+    Genes: GABRA1
+    p-value: 2.96e-02
+    Fold enrichment: 33.3x
+    FNC role: Node filtering strength
+
+----------------------------------------
+
+FNC Interpretation:
+  → Ion channel variants → altered tuning frequency → access to different Field harmonic layers
+  → Myelination variants → modified bandwidth → capacity for high-fidelity Field channel transmission
+  → E/I imbalance → reduced filtering → broader but potentially less controlled Field access
+
+============================================================
+
+MNI Dataset Analysis Protocol:
+  Dataset: MNI Savant WES Dataset (n=15)
+  Access: https://cbigr.loris.ca/
+
+✅ Pathway enrichment demo complete!
